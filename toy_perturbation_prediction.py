@@ -64,7 +64,12 @@ class NeuralPerturbationTransformer(nn.Module):
     
     def patchify(self, neural_data):
         """
-        Convert neural data into patch tokens.
+        Convert neural data into patch tokens
+
+        Potentially transpose this, ie each token is a neuron and vector is values 
+        over time. removes need for spatial encoding, makes more sense to learn 
+        interrelationship between neurons but temporal data ive mostlty seen with 
+        tokens as timesteps
         
         Args:
             neural_data: (batch, time, n_neurons)
