@@ -1,0 +1,19 @@
+{
+	"metadata": {
+		"roi": [112,432,800,160],
+		"timeDim": 3,
+		"dataType": "uint16",
+		"darkLevel": 400,
+		"size": [160,800,1478],
+		"bitsPerSample": 16,
+		"sampleTime": 0.002026895342,
+		"sampleRate": 493.3653846,
+		"pixelSize": 4.814814815,
+		"pixelSize_units": "um",
+		"numFrames": 1478,
+		"height": 160,
+		"width": 800,
+		"numPixels": 128000,
+		"numel": 189184000
+	}
+}
