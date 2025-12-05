@@ -7,9 +7,3 @@
 *.npz
 problem_1/problem_1_static.py
 *.mat
-problem_1/media/
-problem_1/old_movies/
-problem_1/__pycache__
-problem_2/__pycache__
-problem_2/papers
-problem_2/vector_index
