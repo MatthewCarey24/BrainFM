@@ -369,9 +369,9 @@ def evaluate(model, dataloader, device):
 # Example usage
 if __name__ == "__main__":
     # Hyperparameters
-    data_dir = "path/to/npz/files"  # Directory containing NPZ files
+    data_dir = "neuron_traces.npz"  
     batch_size = 16
-    n_neurons = 100  # Should match your data
+    n_neurons = 100  
     patch_size = 50
     n_perturbations = 10000
     n_epochs = 10
